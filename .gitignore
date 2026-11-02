@@ -1,0 +1,20 @@
+# Entorno de Python y compilados
+.venv/
+venv/
+__pycache__/
+*.pyc
+build/
+dist/
+
+# Modelo de MediaPipe: main.py lo descarga solo si falta
+hand_landmarker.task
+
+# Datos y dibujos que se generan al usar la app
+air_draw_data.csv
+dibujos/
+galeria/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
